@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color:aliceblue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+    <h1 class="display-1 fw-bold text-primary text-center"><strong>facebook</strong></h1>
+    <div class="card mx-auto d-block" style="width: 680px; height: 880px; float: center; box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;">
+        <div class="card-body">
+            <h1 class="card-title text-center"><strong>Create a new account</strong></h1>
+            <h5 class="card-subtitle mb-2 text-body-secondary text-center">It's quick and easy</h5>
+            <hr>
+
+            <form class="row ms-2 g-3 was-validated">
+                <div class="col-md-4 position-relative" style="width: 310px;">
+                    <input type="text" class="form-control" id="validationTooltip01" value="First name" required>
+                    <div class="invalid-feedback">
+                       What's your name?
+                    </div>
+                </div>
+    
+                <div class="col-md-4 ms-4 position-relative" style="width: 310px;">
+                    <input type="text" class="form-control" id="validationTooltip02" value="Last name" required>
+                    <div class="invalid-feedback">
+                         What's your name?
+                    </div>
+                </div>
+    
+                <div class="form-floating mb-3 mt-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                    <div class="invalid-feedback">
+                        Please select a valid state.
+                    </div>
+                </div>
+    
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                    <div class="invalid-feedback">
+                        Please select a valid state.
+                    </div>
+                </div>
+    
+                <form class="row g-3 was-validated">
+                    <h6>Date of birth</h6>
+                    <div class="col-md-4">
+                        <select class="form-select" id="validationCustom04" required>
+                            <option selected disabled value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="1">4</option>
+                            <option value="2">5</option>
+                            <option value="3">6</option>
+                            <option value="1">7</option>
+                            <option value="2">8</option>
+                            <option value="3">9</option>
+                            <option value="1">10</option>
+                            <option value="2">11</option>
+                            <option value="3">12</option>
+                            <option value="1">13</option>
+                            <option value="2">14</option>
+                            <option value="3">15</option>
+                            <option value="1">16</option>
+                            <option value="2">17</option>
+                            <option value="3">18</option>
+                            <option value="1">19</option>
+                            <option value="2">20</option>
+                            <option value="3">21</option>
+                            <option value="1">22</option>
+                            <option value="2">23</option>
+                            <option value="3">24</option>
+                            <option value="1">25</option>
+                            <option value="2">26</option>
+                            <option value="3">27</option>
+                            <option value="1">28</option>
+                            <option value="2">29</option>
+                            <option value="3">30</option>
+                            <option value="1">31</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4">
+                        <select class="form-select" id="validationCustom04" required>
+                            <option selected disabled value=""></option>
+                            <option value="1">Jan</option>
+                            <option value="2">Feb</option>
+                            <option value="3">Mar</option>
+                            <option value="1">Apr</option>
+                            <option value="2">May</option>
+                            <option value="3">Jun</option>
+                            <option value="1">Jul</option>
+                            <option value="2">Aug</option>
+                            <option value="3">Sep</option>
+                            <option value="1">Oct</option>
+                            <option value="2">Nov</option>
+                            <option value="3">Dec</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4">
+                        <select class="form-select" id="validationCustom04" required>
+                            <option selected disabled value=""></option>
+                            <option value="1">2024</option>
+                            <option value="2">2023</option>
+                            <option value="3">2022</option>
+                            <option value="1">2021</option>
+                            <option value="2">2020</option>
+                            <option value="3">2019</option>
+                            <option value="1">2018</option>
+                            <option value="2">2017</option>
+                            <option value="3">2018</option>
+                            <option value="1">2017</option>
+                            <option value="2">2016</option>
+                            <option value="3">2015</option>
+                            <option value="1">2014</option>
+                            <option value="2">2013</option>
+                            <option value="3">2012</option>
+                            <option value="1">2011</option>
+                            <option value="2">2010</option>
+                            <option value="3">2009</option>
+                            <option value="1">2008</option>
+                            <option value="2">2007</option>
+                            <option value="3">2006</option>
+                            <option value="1">2005</option>
+                            <option value="2">2004</option>
+                            <option value="3">2003</option>
+                            <option value="1">2002</option>
+                            <option value="2">2001</option>
+                            <option value="3">2000</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+    
+                    <form class="row g-3 needs-validation" novalidate>
+                        <h6 class="mb-4">Gender</h6>
+                        <div class="container mb-3 col-3 p-2 card mx-auto d-block">
+                            <input type="radio" name="jenis kelamin" value="pria">Female
+                        </div>
+
+                        <div class="container mb-3 col-3 p-2 card mx-auto d-block">
+                            <input type="radio" name="jenis kelamin" value="wanita">Male
+                        </div>
+
+                        <div class="container mb-3 col-3 p-2 card mx-auto d-block">
+                            <input type="radio" name="jenis kelamin" value="costum">Costum
+                        </div>
+                    </form>    
+
+                      <br> 
+    
+                        <p class="ms-3" style="font-family: Arial, Helvetica, sans-serif;">
+                            People who use our service may have uploaded your contact information to Facebook. Learn more.
+                        </p>  
+    
+                        <p class="ms-3" style="font-family: Arial, Helvetica, sans-serif;">
+                            By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.
+                        </p>
+    
+    
+                    <div class="col-12 mt-4">
+                        <button class="btn btn-primary mx-auto d-block" style="width: 300px; height: 50px; background-color: rgb(0, 164, 0);" type="submit"><p class="h4 text-white">Sign Up</p></button>
+                    </div>
+    
+                    <p class="h4 text-primary text-center mt-3">
+                        Already have an account?
+                    </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <!-- Bootstrap Javascript -->
+    <script src="../js/bootstrap.js"></script>
+
+    <!-- Popper Javascript -->
+    <script src="../js/popper.min.js"></script>
+</body>
+
+</html>
